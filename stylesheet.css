@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-logo {
-  height: calc(96rem / 16);
+  width: calc(96rem / 16);
   padding-left: calc(40rem / 16);
 }
 
