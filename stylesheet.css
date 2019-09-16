@@ -37,6 +37,8 @@ p#download {
 
 .marquee {
   width: 100vw;
-  height: calc(400rem/16);
+  height: 100vh;
   background-image: url("images/marquee-image.jpg");
+  background-size: cover;
+  background-position: center;
 }
