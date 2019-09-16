@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   width: 100vw;
   top: 0;
-  height: calc(60rem / 16);
+  height: calc(72rem / 16);
 
   display: flex;
   justify-content: space-between;
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-logo {
-  height: calc(24rem / 16);
+  height: calc(96rem / 16);
   padding-left: calc(40rem / 16);
 }
 
