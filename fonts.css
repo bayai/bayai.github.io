@@ -289,3 +289,112 @@
          url('fonts/sf-pro-text-heavyitalic.woff') format('woff'),
          url('fonts/sf-pro-text-heavyitalic.ttf') format('truetype');
 }
+
+
+
+
+/* -------------------------------------------------------------------------
+ * SF Mono
+ * ------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: regular;
+    font-weight: 300;
+    src: url('fonts/sfmono-light.woff2') format('woff2'),
+         url('fonts/sfmono-light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: regular;
+    font-weight: 400;
+    src: url('fonts/sfmono-regular.woff2') format('woff2'),
+         url('fonts/sfmono-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: regular;
+    font-weight: 500;
+    src: url('fonts/sfmono-medium.woff2') format('woff2'),
+         url('fonts/sfmono-medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: regular;
+    font-weight: 600;
+    src: url('fonts/sfmono-semibold.woff2') format('woff2'),
+         url('fonts/sfmono-semibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: regular;
+    font-weight: 700;
+    src: url('fonts/sfmono-bold.woff2') format('woff2'),
+         url('fonts/sfmono-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: regular;
+    font-weight: 800;
+    src: url('fonts/sfmono-heavy.woff2') format('woff2'),
+         url('fonts/sfmono-heavy.woff') format('woff');
+}
+
+
+
+/* -------------------------------------------------------------------------
+ * SF Pro Text Italic
+ * ------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: italic;
+    font-weight: 300;
+    src: url('fonts/sfmono-lightitalic.woff2') format('woff2'),
+         url('fonts/sfmono-lightitalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: italic;
+    font-weight: 400;
+    src: url('fonts/sfmono-regularitalic.woff2') format('woff2'),
+         url('fonts/sfmono-regularitalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: italic;
+    font-weight: 500;
+    src: url('fonts/sfmono-mediumitalic.woff2') format('woff2'),
+         url('fonts/sfmono-mediumitalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: italic;
+    font-weight: 600;
+    src: url('fonts/sfmono-semibolditalic.woff2') format('woff2'),
+         url('fonts/sfmono-semibolditalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/sfmono-bolditalic.woff2') format('woff2'),
+         url('fonts/sfmono-bolditalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    font-style: italic;
+    font-weight: 800;
+    src: url('fonts/sfmono-heavyitalic.woff2') format('woff2'),
+         url('fonts/sfmono-heavyitalic.woff') format('woff');
+}
