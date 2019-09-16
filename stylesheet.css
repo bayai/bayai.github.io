@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  font-size: calc(16em / 16);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "SF Pro Display", Helvetica, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  height: calc(60rem / 16);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(calc(20rem / 16));
+  -webkit-backdrop-filter: blur(calc(20rem / 16));
+}
+
+.navbar-logo {
+  height: calc(24rem / 16);
+  padding-left: calc(40rem / 16);
+}
+
+p#download {
+  font-weight: 200;
+  padding-right: calc(40rem / 16);
+  color: rgba(255, 255, 255, 0.7);
+}
