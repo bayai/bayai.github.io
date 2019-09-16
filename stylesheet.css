@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 5%);
   color: white;
   font-family: "SF Pro Text", Helvetica, sans-serif;
   font-size: calc(16em / 16);
@@ -33,4 +33,10 @@ p#download {
   font-weight: 200;
   padding-right: calc(40rem / 16);
   color: rgba(255, 255, 255, 0.7);
+}
+
+.marquee {
+  width: 100vw;
+  height: calc(400rem/16);
+  background-image: url("images/marquee-image.jpg");
 }
