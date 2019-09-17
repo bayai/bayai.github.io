@@ -50,3 +50,7 @@ p#download {
 .header {
   margin-top: calc(200rem / 16);
 }
+
+h1 {
+  font-weight: 500;
+}
