@@ -333,6 +333,7 @@
     font-family: 'SF Mono';
     font-style: regular;
     font-weight: 700;
+    font-weight: bold;
     src: url('fonts/sfmono-bold.woff2') format('woff2'),
          url('fonts/sfmono-bold.woff') format('woff');
 }
@@ -387,6 +388,7 @@
     font-family: 'SF Mono';
     font-style: italic;
     font-weight: 700;
+    font-weight: bold;
     src: url('fonts/sfmono-bolditalic.woff2') format('woff2'),
          url('fonts/sfmono-bolditalic.woff') format('woff');
 }
