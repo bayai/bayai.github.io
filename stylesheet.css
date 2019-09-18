@@ -36,16 +36,8 @@ a {
 .navbar-signup {
   background: white;
   margin-right: calc(40rem / 16);
-  padding: calc(5rem / 16) calc(20rem / 16);
-  border-radius: calc(20rem / 16);
-}
-
-p#signup {
-  font-weight: 200;
-  margin: 0;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  color: black; /* Fallback */
+  width: calc(103rem / 16);
+  height: calc(32rem / 16);
 }
 
 .marquee {
