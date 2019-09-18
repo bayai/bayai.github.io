@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "SF Mono", Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar {
   position: fixed;
   width: 100vw;
@@ -29,10 +33,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: calc(40rem / 16);
 }
 
+.navbar-signup {
+  background: white;
+}
+
 p#signup {
   font-weight: 200;
   padding-right: calc(40rem / 16);
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(118, 109, 91);
 }
 
 .marquee {
@@ -48,13 +56,14 @@ p#signup {
 }
 
 .header {
-  margin-top: calc(200rem / 16);
+  margin-top: 40vh;
 }
 
 h1 {
   font-weight: 700;
   font-size: calc(72rem / 16);
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  margin: 0;
 }
 
 h1 strong {
@@ -62,7 +71,11 @@ h1 strong {
 }
 
 p#description {
-  font-size: calc(20rem / 16);
+  font-size: calc(24rem / 16);
   font-weight: 500;
   width: 70vw;
+  text-shadow: 0 0 10px black;
+  margin: 0;
+  line-height: 1.2;
+  text-align: center;
 }
