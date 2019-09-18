@@ -35,12 +35,15 @@ a {
 
 .navbar-signup {
   background: white;
+  margin-right: calc(40rem / 16);
+  padding: calc(5rem / 16) calc(20rem / 16);
+  border-radius: calc(20rem / 16);
 }
 
 p#signup {
   font-weight: 200;
-  padding-right: calc(40rem / 16);
   color: rgba(118, 109, 91);
+  margin: 0;
 }
 
 .marquee {
@@ -62,7 +65,7 @@ p#signup {
 h1 {
   font-weight: 700;
   font-size: calc(72rem / 16);
-  text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  text-shadow: 0 0 calc(20rem / 16) rgba(0, 0, 0, 0.7);
   margin: 0;
 }
 
@@ -74,7 +77,7 @@ p#description {
   font-size: calc(24rem / 16);
   font-weight: 500;
   width: 70vw;
-  text-shadow: 0 0 10px black;
+  text-shadow: 0 0 calc(10rem / 16) black;
   margin: 0;
   line-height: 1.2;
   text-align: center;
