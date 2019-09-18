@@ -52,7 +52,7 @@ a {
 }
 
 .header {
-  margin-top: 40vh;
+  margin-top: 33vh;
 }
 
 h1 {
@@ -77,14 +77,15 @@ p#description {
 }
 
 .signup {
-  background-color: red;
+  background-color: hsl(0, 100%, 40%);
   border-radius: 9999px;
+  margin-top: calc(32rem / 16);
 }
 
 .signup p {
-  font-size: calc(24rem / 16);
-  font-weight: 500;
-  padding: calc(14rem / 16) calc(24rem / 16);
+  font-size: calc(20rem / 16);
+  font-weight: 700;
+  padding: calc(12rem / 16) calc(28rem / 16);
   color: white;
   margin: 0;
 }
