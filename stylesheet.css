@@ -52,5 +52,10 @@ p#download {
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 700;
+  font-size: calc(72rem / 16);
+}
+
+h1 strong {
+  font-weight: 900;
 }
