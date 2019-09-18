@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: calc(40rem / 16);
 }
 
-p#download {
+p#signup {
   font-weight: 200;
   padding-right: calc(40rem / 16);
   color: rgba(255, 255, 255, 0.7);
@@ -59,4 +59,10 @@ h1 {
 
 h1 strong {
   font-weight: 900;
+}
+
+p#description {
+  font-size: calc(20rem / 16);
+  font-weight: 500;
+  width: 70vw;
 }
