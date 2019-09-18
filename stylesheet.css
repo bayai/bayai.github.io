@@ -75,3 +75,15 @@ p#description {
   line-height: 1.2;
   text-align: center;
 }
+
+.signup {
+  background-color: red;
+  border-radius: 9999px;
+}
+
+.signup p {
+  font-size: calc(24rem / 16);
+  font-weight: 500;
+  padding: calc(14rem / 16) calc(24rem / 16);
+  color: white;
+}
