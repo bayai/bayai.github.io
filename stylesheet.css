@@ -54,6 +54,7 @@ p#download {
 h1 {
   font-weight: 700;
   font-size: calc(72rem / 16);
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
 h1 strong {
