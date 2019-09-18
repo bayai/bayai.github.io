@@ -89,3 +89,16 @@ p#description {
   color: white;
   margin: 0;
 }
+
+
+/* Portrait devices such as phones */
+@media (orientation: portrait) {
+  html {
+    font-size: 32px;
+  }
+
+  p#description {
+    width: 80vw;
+  }
+
+}
