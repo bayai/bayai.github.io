@@ -38,11 +38,13 @@ a {
   margin-right: calc(40rem / 16);
   padding: calc(5rem / 16) calc(20rem / 16);
   border-radius: calc(20rem / 16);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: black; /* Fallback */
 }
 
 p#signup {
   font-weight: 200;
-  color: rgba(118, 109, 91);
   margin: 0;
 }
 
