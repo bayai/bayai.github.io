@@ -133,6 +133,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: calc(30rem / 16);
 }
 
 h3 {
@@ -140,6 +141,8 @@ h3 {
   font-size: calc(36rem / 16);
   font-weight: 500;
   color: rgba(255, 255, 255, 0.5);
+  margin-top: 0;
+  margin-bottom: 0.66em;
 }
 
 .guest-speaker-logos {
