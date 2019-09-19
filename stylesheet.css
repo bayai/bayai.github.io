@@ -98,12 +98,14 @@ p#description {
 
 .structured-curriculum {
   width: 85vw;
+  padding: calc(60rem / 16);
 }
 
 h2 {
   font-size: calc(48rem / 16);
   font-weight: 500;
   line-height: 1.3;
+  margin-block-start: 0.5em;
   margin-block-end: 0.5em;
 }
 
@@ -136,6 +138,10 @@ h3 {
 .guest-speaker-logos {
   display: flex;
   justify-content: space-around;
+}
+
+.guest-speaker-logos svg {
+  height: calc(60rem / 16);
 }
 
 
