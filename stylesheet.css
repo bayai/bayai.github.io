@@ -144,7 +144,8 @@ h3 {
 
 .guest-speaker-logos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 80vw;
 }
 
 .guest-speaker-logos svg {
