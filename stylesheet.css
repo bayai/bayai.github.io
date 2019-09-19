@@ -102,6 +102,7 @@ p#description {
 
 h2 {
   font-size: calc(48rem / 16);
+  font-weight: 500;
   line-height: 1.3;
 }
 
