@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "SF Mono", Helvetica, sans-serif;
 }
 
+p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 a {
   text-decoration: none;
 }
@@ -73,6 +77,7 @@ h1 strong {
 }
 
 p#description {
+  color: white;
   font-size: calc(24rem / 16);
   font-weight: 500;
   width: 70vw;
@@ -89,6 +94,7 @@ p#description {
 }
 
 .signup p {
+  color: white;
   font-size: calc(20rem / 16);
   font-weight: 700;
   padding: calc(12rem / 16) calc(28rem / 16);
@@ -179,7 +185,8 @@ h3 {
 }
 
 .officer-photo img {
-  width: 10vw;
+  width: 15vw;
+  height: 15vw;
   border-radius: 50%;
 }
 
