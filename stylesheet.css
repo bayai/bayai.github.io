@@ -39,6 +39,12 @@ a {
   height: calc(32rem / 16);
 }
 
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .marquee {
   width: 100vw;
   height: 100vh;
@@ -88,6 +94,10 @@ p#description {
   padding: calc(12rem / 16) calc(28rem / 16);
   color: white;
   margin: 0;
+}
+
+.structured-curriculum {
+  width: 85vw;
 }
 
 .units {
