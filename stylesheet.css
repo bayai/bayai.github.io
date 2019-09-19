@@ -165,11 +165,22 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 85vw;
 }
 
 .officer-bios {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.indiv-officer {
+  width: 25vw;
+}
+
+.officer-photo {
+  width: 10vw;
+  border-radius: 50%;
 }
 
 
