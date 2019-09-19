@@ -116,13 +116,26 @@ h2 {
   width: 25vw;
 }
 
-h3 {
+h4 {
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.9);
 }
 
 .indiv-unit p {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.guest-speakers {
+  color: hsl(0, 0%, 14%);
+}
+
+h3 {
+  text-align: center;
+}
+
+.guest-speaker-logos {
+  display: flex;
+  justify-content: space-around;
 }
 
 
