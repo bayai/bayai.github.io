@@ -153,6 +153,10 @@ h3 {
   fill: rgba(255, 255, 255, 0.5);
 }
 
+#nvidia {
+  height: calc(40rem / 16);
+}
+
 
 /* Portrait devices such as phones */
 @media (orientation: portrait) {
