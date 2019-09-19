@@ -100,6 +100,11 @@ p#description {
   width: 85vw;
 }
 
+h2 {
+  font-size: calc(48rem / 16);
+  line-height: 1.3;
+}
+
 .units {
   display: flex;
   justify-content: space-between;
@@ -107,6 +112,15 @@ p#description {
 
 .indiv-unit {
   width: 25vw;
+}
+
+h3 {
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.indiv-unit p {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 
