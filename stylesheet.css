@@ -102,6 +102,11 @@ p#description {
 
 .units {
   display: flex;
+  justify-content: space-between;
+}
+
+.indiv-unit {
+  width: 25vw;
 }
 
 
