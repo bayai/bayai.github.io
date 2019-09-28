@@ -172,6 +172,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   width: 85vw;
+  padding: calc(30rem / 16);
 }
 
 .officer-bios {
@@ -182,12 +183,19 @@ h3 {
 
 .indiv-officer {
   width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .officer-photo img {
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
+}
+
+.indiv-officer h4 {
+  margin-bottom: 0;
 }
 
 
