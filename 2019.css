@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 7%);
+  color: white;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  font-size: calc(16em / 16);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "SF Mono", Helvetica, sans-serif;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  height: calc(72rem / 16);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(calc(20rem / 16));
+  -webkit-backdrop-filter: blur(calc(20rem / 16));
+}
+
+.navbar-logo {
+  width: calc(96rem / 16);
+  padding-left: calc(40rem / 16);
+}
+
+.navbar-signup {
+  margin-right: calc(40rem / 16);
+  width: calc(103rem / 16);
+  height: calc(32rem / 16);
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marquee {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/marquee-image.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  margin-top: 33vh;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: calc(72rem / 16);
+  text-shadow: 0 0 calc(20rem / 16) rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+h1 strong {
+  font-weight: 900;
+}
+
+p#description {
+  color: white;
+  font-size: calc(24rem / 16);
+  font-weight: 500;
+  width: 70vw;
+  text-shadow: 0 0 calc(10rem / 16) black;
+  margin: 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.signup {
+  background-color: hsl(0, 100%, 40%);
+  border-radius: 9999px;
+  margin-top: calc(32rem / 16);
+}
+
+.signup p {
+  color: white;
+  font-size: calc(20rem / 16);
+  font-weight: 700;
+  padding: calc(12rem / 16) calc(28rem / 16);
+  color: white;
+  margin: 0;
+}
+
+.structured-curriculum {
+  width: 85vw;
+  padding: calc(60rem / 16);
+}
+
+h2 {
+  font-size: calc(48rem / 16);
+  font-weight: 500;
+  line-height: 1.3;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.units {
+  display: flex;
+  justify-content: space-between;
+}
+
+.indiv-unit {
+  width: 25vw;
+}
+
+h4 {
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.indiv-unit p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.guest-speakers {
+  width: 100vw;
+  background-color: hsl(0, 0%, 14%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(30rem / 16) 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: calc(36rem / 16);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0;
+  margin-bottom: 0.66em;
+}
+
+.guest-speaker-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+
+.guest-speaker-logos svg {
+  height: calc(60rem / 16);
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+#nvidia {
+  height: calc(40rem / 16);
+}
+
+.officers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85vw;
+  padding: calc(30rem / 16) 0;
+}
+
+.officer-bios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.indiv-officer {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: calc(30rem / 16);
+}
+
+.officer-photo img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+.indiv-officer h4 {
+  margin-bottom: 0;
+}
+
+
+/* Portrait devices such as phones */
+@media (orientation: portrait) {
+  html {
+    font-size: 32px;
+  }
+
+  p#description {
+    width: 80vw;
+  }
+
+}
